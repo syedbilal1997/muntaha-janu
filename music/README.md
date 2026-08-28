@@ -1,7 +1,7 @@
 # music
 
-Drop the background song here as `song.mp3`.
+`song.mp3` - Inaam, Jasleen Royal ft. Badshah.
 
 It starts when she opens the envelope (browsers block audio before a tap)
 and can be paused with the note button in the bottom-right corner.
-If the file is missing, the button just hides itself.
+Swap the file to change the song - keep the name `song.mp3`.
