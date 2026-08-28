@@ -216,7 +216,13 @@ h2 { font-size: clamp(20px, 5vw, 26px); }
   background: repeating-linear-gradient(45deg, #ffe6ee, #ffe6ee 12px, #ffd9e4 12px, #ffd9e4 24px);
 }
 
+/* the track is as tall as the tallest slide, so the caption stretches to
+   fill whatever is left — otherwise short captions leave a pink gap */
 .slide figcaption {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 12px 14px;
   font-size: 15px;
   font-weight: 600;
