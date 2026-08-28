@@ -1,13 +1,14 @@
 # images
 
-Drop your photos here, named exactly:
+The site uses `photo1.jpg`, `photo2.jpg`, `photo3.jpg` - compressed
+web copies, about 170 KB each.
 
-- `photo1.jpg`
-- `photo2.jpg`
-- `photo3.jpg`
+The full-size `photo*.png` originals sit alongside them and are
+gitignored, so they stay on your machine without bloating the repo.
 
-Landscape / 4:3 crops look best. Any photo that is missing shows a soft
-pink placeholder instead, so the page never breaks.
+If you replace a photo, drop in the new original and regenerate the
+jpg (1400px wide, quality 86). Photos are cropped to 4:3 and centred,
+so keep faces near the middle.
 
-To add a fourth photo, copy one `<figure class="slide">` block in
-`index.html` and point it at `images/photo4.jpg`.
+To add a fourth, copy one `<figure class="slide">` block in `index.html`
+and point it at `images/photo4.jpg`.
